@@ -37,7 +37,8 @@
         }
 
         .input:focus {
-            outline: 0;
+            outline: 2px solid var(--font);
+            outline-offset: 2px;
         }
 
         .input::placeholder {
